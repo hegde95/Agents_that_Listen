@@ -1,6 +1,10 @@
 # ViZDoom_Sound
 Train an agent to play VizDoom with multi sensory inputs. Trained using sample factory
 
+**Paper:** ADD ONCE DONE
+
+**Website:** https://sites.google.com/view/sound-rl
+
 
 Tested on Ubuntu 18.04 64-bit.
 
