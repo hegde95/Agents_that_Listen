@@ -134,3 +134,4 @@ dmypy.json
 train_dir/
 _vizdoom.ini
 test.py
+demo/videos

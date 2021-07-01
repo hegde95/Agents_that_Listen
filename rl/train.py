@@ -8,18 +8,6 @@ from sample_factory.algorithms.utils.arguments import arg_parser, parse_args
 from sample_factory.utils.utils import str2bool
 from sample_factory.run_algorithm import run_algorithm
 
-def custom_parse_args(argv=None, evaluation=False):
-    """
-    Parse default SampleFactory arguments and add user-defined arguments on top.
-    Allow to override argv for unit tests. Default value (None) means use sys.argv.
-    Setting the evaluation flag to True adds additional CLI arguments for evaluating the policy (see the enjoy_ script).
-
-    """
-    parser = arg_parser(argv, evaluation=evaluation)
-    cfg = parse_args(argv=argv, evaluation=evaluation, parser=parser)
-    return cfg
-
-
 def main():
     register_custom_components()
     parser = arg_parser()
