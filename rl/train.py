@@ -30,3 +30,5 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+
+# python -m rl.train --algo=APPO --env=doomsound_instruction --experiment=doom_instruction --encoder_custom=vizdoomSoundFFT --train_for_env_steps=500000000 --num_workers=24 --num_envs_per_worker=20 

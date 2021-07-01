@@ -17,4 +17,4 @@ _experiment = Experiment(
 RUN_DESCRIPTION = RunDescription('duel_with_sound_self_play', experiments=[_experiment])
 
 # For brain run using:
-# python -m runner.run --run=doom_sound_duel_pbt --runner=processes --max_parallel=1 --experiments_per_gpu=-1 --num_gpus=4
+# python -m sample_factory.runner.run --run=runner.doom_sound_duel_pbt --runner=processes --max_parallel=4 --pause_between=1 --experiments_per_gpu=1 --num_gpus=4

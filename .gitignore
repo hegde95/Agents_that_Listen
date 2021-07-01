@@ -132,3 +132,5 @@ dmypy.json
 .vscode
 
 train_dir/
+_vizdoom.ini
+test.py

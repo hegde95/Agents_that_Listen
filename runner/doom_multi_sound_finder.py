@@ -22,4 +22,4 @@ _experiments = [
 RUN_DESCRIPTION = RunDescription('doom_multi_sound_basic', experiments=_experiments)
 
 # For brain run using:
-# python -m runner.run --run=doom_multi_sound_finder --runner=processes --max_parallel=4 --experiments_per_gpu=1 --num_gpus=4
+# python -m sample_factory.runner.run --run=runner.doom_multi_sound_finder --runner=processes --max_parallel=4 --pause_between=1 --experiments_per_gpu=1 --num_gpus=4
