@@ -42,3 +42,8 @@ python -m rl.train --algo=APPO --env=doomsound_instruction --experiment=doom_ins
 python -m rl.enjoy --algo=APPO --env=doomsound_instruction --experiment=doom_instruction
 ```
 
+- To record a demo of the learned policy run the following command:
+
+```
+python -m demo.enjoy_appo --algo=APPO --env=doomsound_instruction --experiment=doom_instruction
+```
