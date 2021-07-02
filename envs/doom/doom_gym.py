@@ -260,6 +260,7 @@ class VizdoomEnv(gym.Env):
 
         # added 2 extra line here
         self.game.set_sound_enabled(self.sound_enabled)
+        self.game.set_soft_sound_enabled(self.sound_enabled)
         self.game.set_sound_sampling_freq(self.sampling_freq)
         self.game.set_sound_observation_num_frames(self.number_of_audio_frames)
 
