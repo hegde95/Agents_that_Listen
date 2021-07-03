@@ -1,6 +1,6 @@
 import sys
 
-from algorithms.utils.arguments import default_cfg
+from sample_factory.algorithms.utils.arguments import default_cfg
 from envs.doom.doom_gym import VizdoomEnv
 from envs.doom.doom_utils import doom_env_by_name, make_doom_multiplayer_env, make_doom_env_impl
 

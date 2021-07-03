@@ -9,16 +9,16 @@ from os.path import join
 import numpy as np
 import torch
 
-from algorithms.appo.actor_worker import transform_dict_observations
-from algorithms.appo.learner import LearnerWorker
-from algorithms.appo.model import create_actor_critic
-from algorithms.appo.model_utils import get_hidden_size
-from algorithms.utils.action_distributions import ContinuousActionDistribution
-from algorithms.utils.algo_utils import ExperimentStatus
-from algorithms.utils.arguments import parse_args, load_from_checkpoint
-from algorithms.utils.multi_agent_wrapper import MultiAgentWrapper, is_multiagent_env
-from envs.create_env import create_env
-from utils.utils import log, AttrDict
+from sample_factory.algorithms.appo.actor_worker import transform_dict_observations
+from sample_factory.algorithms.appo.learner import LearnerWorker
+from sample_factory.algorithms.appo.model import create_actor_critic
+from sample_factory.algorithms.appo.model_utils import get_hidden_size
+from sample_factory.algorithms.utils.action_distributions import ContinuousActionDistribution
+from sample_factory.algorithms.utils.algo_utils import ExperimentStatus
+from sample_factory.algorithms.utils.arguments import parse_args, load_from_checkpoint
+from sample_factory.algorithms.utils.multi_agent_wrapper import MultiAgentWrapper, is_multiagent_env
+from sample_factory.envs.create_env import create_env
+from sample_factory.utils.utils import log, AttrDict
 import json
 
 import cv2

@@ -1,8 +1,8 @@
 import sys
 
-from algorithms.utils.arguments import default_cfg
-from envs.create_env import create_env
-from utils.utils import log
+from sample_factory.algorithms.utils.arguments import default_cfg
+from sample_factory.envs.create_env import create_env
+from sample_factory.utils.utils import log
 
 
 def main():

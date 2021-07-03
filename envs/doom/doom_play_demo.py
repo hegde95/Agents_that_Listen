@@ -6,9 +6,9 @@ from os.path import join
 
 import cv2
 
-from algorithms.utils.arguments import default_cfg
+from sample_factory.algorithms.utils.arguments import default_cfg
 from envs.doom.doom_utils import make_doom_env, doom_env_by_name, make_doom_env_impl
-from utils.utils import log
+from sample_factory.utils.utils import log
 
 
 def main():
