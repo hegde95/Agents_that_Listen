@@ -18,7 +18,7 @@ Tested on Ubuntu 18.04 64-bit.
 cd ViZDoom_Sound
 conda env create -f environment.yml
 cd ..
-conda activate doom_sound
+conda activate sound
 ```
 
 This will install sample-factory into the environment too
