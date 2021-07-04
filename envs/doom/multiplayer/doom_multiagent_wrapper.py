@@ -13,8 +13,8 @@ from filelock import FileLock
 from envs.doom.doom_gym import doom_lock_file
 from envs.doom.doom_render import concat_grid, cvt_doom_obs
 from envs.doom.multiplayer.doom_multiagent import find_available_port, DEFAULT_UDP_PORT
-from envs.env_utils import RewardShapingInterface, get_default_reward_shaping
-from utils.utils import log
+from sample_factory.envs.env_utils import RewardShapingInterface, get_default_reward_shaping
+from sample_factory.utils.utils import log
 from functools import wraps
 from time import sleep
 

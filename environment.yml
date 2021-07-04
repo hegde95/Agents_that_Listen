@@ -1,4 +1,4 @@
-name: resl_sound
+name: sound
 channels:
   - defaults
 dependencies:
