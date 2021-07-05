@@ -10,12 +10,12 @@ Tested on Ubuntu 18.04 64-bit.
 
 - Install miniconda for Python 3.7: https://docs.conda.io/en/latest/miniconda.html
 
-- Clone the repo: `git clone https://github.com/hegde95/ViZDoom_Sound.git`
+- Clone the repo: `git clone https://github.com/hegde95/Agents_that_Listen.git`
 
 - Create and activate conda env:
 
 ```
-cd ViZDoom_Sound
+cd Agents_that_Listen
 conda env create -f environment.yml
 cd ..
 conda activate sound
@@ -23,12 +23,12 @@ conda activate sound
 
 This will install sample-factory into the environment too
 
-- Clone the required ViZDoom repo that contains the sound state space: `git clone -b doom_bot_project https://github.com/hegde95/ViZDoom.git`
+- Clone the required ViZDoom repo that contains the sound state space: `git clone https://github.com/hegde95/ViZDoom_with_Sound.git`
 
 - Build and install the new environemnt:
 
 ```
-cd ViZDoom
+cd ViZDoom_with_Sound
 python setup.py build && python setup.py install
 cd ..
 ```
@@ -36,7 +36,7 @@ cd ..
 - Enter the ViZDoom_Sound folder and run the following command to start a training run on the instruction scenario discussed in the paper
 
 ```
-cd ViZDoom_Sound
+cd Agents_that_Listen
 python -m rl.train --algo=APPO --env=doomsound_instruction --experiment=doom_instruction --encoder_custom=vizdoomSoundFFT --train_for_env_steps=500000000 --num_workers=24 --num_envs_per_worker=20
 ```
 
