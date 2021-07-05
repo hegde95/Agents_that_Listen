@@ -1,4 +1,4 @@
-# ViZDoom_Sound
+# Agents that Listen: High-Throughput Reinforcement Learning with Multiple Sensory Systems
 Train an agent to play VizDoom with multi sensory inputs. Trained using sample factory
 
 **Paper:** ADD ONCE DONE
