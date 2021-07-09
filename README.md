@@ -51,3 +51,13 @@ python -m rl.enjoy --algo=APPO --env=doomsound_instruction --experiment=doom_ins
 ```
 python -m demo.enjoy_appo --algo=APPO --env=doomsound_instruction --experiment=doom_instruction
 ```
+
+# Citation
+```
+@inproceedings{hegde2021agents,
+  title={Agents that Listen: High-Throughput Reinforcement Learning with Multiple Sensory Systems},
+  author={Hegde, Shashank and Kanervisto, Anssi and Petrenko, Aleksei},
+  booktitle={To Appear in IEEE COG 2021},
+  year={2021}
+}
+```
